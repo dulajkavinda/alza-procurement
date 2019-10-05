@@ -372,8 +372,9 @@ class SupplierScreen extends React.Component {
               }}
             >
               <Ionicons name="ios-paper" size={70} color={"brows"} />
-              <Text style={{ fontSize: 25, fontWeight: "300" }}>
-                Order : {this.state.orderid}
+              <Text style={{ fontSize: 18, fontWeight: "300" }}>
+                Order :{" "}
+                <Text style={{ fontWeight: "bold" }}>{this.state.orderid}</Text>
               </Text>
             </View>
             <View style={{ marginBottom: 1 }}>

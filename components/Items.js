@@ -148,11 +148,6 @@ export default class Items extends Component {
           <Button style={styles.buttonStyles} warning>
             <Text> Info </Text>
           </Button>
-          <Right>
-            <Button style={styles.buttonStyles} primary>
-              <Text> Primary </Text>
-            </Button>
-          </Right>
         </CardItem>
 
         <Modal isVisible={this.state.isModalVisible}>
